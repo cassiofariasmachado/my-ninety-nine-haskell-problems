@@ -1,6 +1,7 @@
-# My Ninety Nine Haskell Problems
+# My Ninety Nine Haskell Problems 
+![Haskell CI](https://github.com/cassiofariasmachado/my-ninety-nine-haskell-problems/workflows/Haskell%20CI/badge.svg)
 
-This repository is for my solution's the [99 Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems).
+This repository is for my solution's for the [99 Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems).
 
 ## Problems
 
@@ -21,6 +22,6 @@ This repository is for my solution's the [99 Haskell Problems](https://wiki.hask
 * Run `stack exec -- my-ninety-nine-haskell-problems-exe` to see "We're inside the application!"
 * With `stack exec -- my-ninety-nine-haskell-problems-exe --verbose` you will see the same message, with more logging.
 
-## Run tests
+## Tests
 
-`stack test`
+* Run `stack test`
