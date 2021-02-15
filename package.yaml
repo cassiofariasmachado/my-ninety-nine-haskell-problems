@@ -1,0 +1,50 @@
+name: my-ninety-nine-haskell-problems
+version: 0.1.0.0
+github: "cassiofariasmachado/my-ninety-nine-haskell-problems"
+license: MIT
+author: "Cássio Farias Machado"
+maintainer: "cassiofariasmachado@yahoo.com"
+copyright: "2021 Cássio Farias Machado"
+
+extra-source-files:
+  - README.md
+  - ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description: Please see the README on GitHub at <https://github.com/cassiofariasmachado/my-ninety-nine-haskell-problems#readme>
+
+dependencies:
+  - base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+
+executables:
+  my-ninety-nine-haskell-problems-exe:
+    main: Main.hs
+    source-dirs: app
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - my-ninety-nine-haskell-problems
+
+tests:
+  my-ninety-nine-haskell-problems-test:
+    main: Spec.hs
+    source-dirs: test
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - my-ninety-nine-haskell-problems
+      - hspec
+      - QuickCheck
