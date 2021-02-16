@@ -17,11 +17,6 @@ This repository is for my solution's for the [99 Haskell Problems](https://wiki.
 - [ ] [90 to 94: Miscellaneous problems](https://wiki.haskell.org/99_questions/90_to_94)
 - [ ] [95 to 99: Miscellaneous problems, continued](https://wiki.haskell.org/99_questions/95_to_99)
 
-## Execute  
-
-* Run `stack exec -- my-ninety-nine-haskell-problems-exe` to see "We're inside the application!"
-* With `stack exec -- my-ninety-nine-haskell-problems-exe --verbose` you will see the same message, with more logging.
-
 ## Tests
 
 * Run `stack test`
