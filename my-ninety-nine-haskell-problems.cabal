@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 125e75e47fe6da6b2dc5202205b954d34f9e4f909ba24fe22f130e8a33d4c486
+-- hash: d3f561d914166cb44ce2ce26633d519ea8c3dc301fea7ee36cad788c4ad7e778
 
 name:           my-ninety-nine-haskell-problems
 version:        0.1.0.0
@@ -29,6 +29,7 @@ library
   exposed-modules:
       Lib
       Lists
+      ListsContinued
   other-modules:
       Paths_my_ninety_nine_haskell_problems
   hs-source-dirs:
@@ -53,6 +54,7 @@ test-suite my-ninety-nine-haskell-problems-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      ListsContinuedSpec
       ListsSpec
       Paths_my_ninety_nine_haskell_problems
   hs-source-dirs:

@@ -6,7 +6,7 @@ This repository is for my solution's for the [99 Haskell Problems](https://wiki.
 ## Problems
 
 - [X] [1 to 10: Lists](https://wiki.haskell.org/99_questions/1_to_10)
-- [ ] [11 to 20: Lists, continued](https://wiki.haskell.org/99_questions/11_to_20)
+- [X] [11 to 20: Lists, continued](https://wiki.haskell.org/99_questions/11_to_20)
 - [ ] [21 to 28: Lists again](https://wiki.haskell.org/99_questions/21_to_28)
 - [ ] [31 to 41: Arithmetic](https://wiki.haskell.org/99_questions/31_to_41)
 - [ ] [46 to 50: Logic and codes](https://wiki.haskell.org/99_questions/46_to_50)

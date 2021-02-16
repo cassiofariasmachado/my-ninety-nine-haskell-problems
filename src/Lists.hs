@@ -13,6 +13,8 @@ module Lists
   )
 where
 
+import Data.List (group)
+
 -- Problem 1
 myLast :: [a] -> Maybe a
 myLast [last] = Just last
@@ -86,4 +88,4 @@ pack [] = []
 
 -- Problem 10
 encode :: Eq a => [a] -> [(Int, a)]
-encode = map (\x -> (length x, head x)) . pack
+encode = map (\x -> (length x, head x)) . group
